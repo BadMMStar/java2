@@ -42,7 +42,7 @@ public class Quest2 {
         System.out.println("-------4-------");
         final int g = 10;  // g = 9.81 м/с - ускорение свободного падение тела
         int t = 0;
-        t = Math.abs(2*h/g);
+        t = Math.sqrt(2*h/g);
         System.out.println("Free fall time is " + t);
     }
 
